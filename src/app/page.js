@@ -4,7 +4,7 @@ import { cardList } from "@/data/card";
 
 export default function Home() {
   return (
-    <div className="p-[15px]">
+    <div className="p-[15px] pt-[50px]">
       <Header />
       <ul className="flex flex-col gap-3">
         {cardList.map((card) => (
